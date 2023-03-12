@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .con{
+            background-image: url("rm218batch5-katie-12.jpg");
+            width: auto;
+            height: 620px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            text-align: center;
+            padding-top: 150px;
+        }
+        .log{
+            font-size: x-large;
+            font-weight: bolder;
+        }
+        .username{
+            width: 290px;
+            height: 33px;
+            padding: 5px;
+            font-size: large;
+        }
+        .username:focus{
+            outline: none;
+        }
+        .password{
+            width: 290px;
+            height: 33px;
+            padding: 5px;
+            font-size: large;
+        }
+        .password:focus{
+            outline: none;
+        }
+        .keep{
+            font-style: italic;
+            margin-right: 150px;
+        }
+        button{
+            height: 33px;
+            width:290px;
+            font-size: large;
+        }
+        .tick{
+            width: 10px;
+            height: 10px;
+            background-color: white;
+            border: 1px solid black;
+            position: absolute;
+            left: 530px;
+            top: 283px;
+        }
+        .new{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-style: italic;
+            margin-top: 10px;
+        }
+        .a{
+            margin-right: 25px;
+        }
+        .b{
+            margin-left: 25px;
+        }
+        a{
+            text-decoration: none;
+        }
+        .image{
+            width: 40px;
+            height: 40px;
+            margin: 10px;
+        }
+        .x{
+            margin-right: 50px;
+        }
+        .z{
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="box">
+            <p class="log">LOGIN NOW</p>
+            <br>
+            <input type="text" placeholder="Username" class="username">
+            <br><br>
+            <input type="password" placeholder="Password" class="password">
+            <div class="tick"></div>
+            <p class="keep">keep me logged</p>
+            <br>
+            <button>Login</button>
+            <div class="new">
+           <a href=""> <p class="a">forgot password</p></a>
+            <p class="b">New user? </p><a href="">sign up</a>
+            </div>
+            <br>
+            <p>or login using</p>
+            <a href="https://www.google.com"><img src="google.png" alt="" class="image x"></a>
+            <a href="https://www.twitter.com"><img src="facebook.png" alt="" class="image y"></a>
+            <a href="https://www.facebook.com"><img src="twitter.png" alt="" class="image z"></a>
+        </div>
+    </div>
+</body>
+</html>

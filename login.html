@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        *{
+            margin: 2px;
+            padding: 2px;
+            box-sizing: border-box;
+        }
+        .color{
+            background-image: url("rm218batch5-katie-12.jpg");
+            width: auto;
+            height: 98vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .log{
+            width: 400px;
+            height: 500px;
+            background-color: white;
+            border-radius: 7px;
+            border: none;
+            position: relative;
+            overflow: hidden;
+        }
+        .text{
+           width: 270px;
+           border-top: none;
+           border-left: none;
+           border-right: none;
+           border-bottom: 2px solid black;
+           margin-left: 55px;
+           padding-left: 25px;
+        }
+        .text:focus{
+           outline: none;
+        }
+        .per{
+            position: absolute;
+            left: 57px;
+        }
+        .password{ 
+            width: 270px;
+           border-top: none;
+           border-left: none;
+           border-right: none;
+           border-bottom: 2px solid black;
+           margin-left: 55px;
+           padding-left: 25px;
+        }
+        .password:focus{
+            outline: none;
+        }
+        .lock{
+            position: absolute;
+            left: 57px;
+        }
+        h2{
+            text-align: center;
+        }
+        .rem{
+            font-size: 16px;
+            font-style: italic;
+            padding-top: 7px;
+            padding-left: 28px;
+            margin-left: 50px;
+        }
+        .span{
+            width: 10px;
+            height: 10px;
+            background-color: white;
+            border: 1px solid black;
+            position: absolute;
+            top: 244px;
+            left: 62px;
+        }
+        button{
+            text-align: center;
+            width: 280px;
+            margin-left: 50px;
+            height: 30px;
+            border-radius: 10px;
+            border: none;
+            background-image: linear-gradient(to right, rgb(4, 203, 4) ,rgb(125, 246, 125) ,white);
+            transition: all ;
+            transition-duration: 3s;
+        }
+        button:hover{
+            background-image: linear-gradient(to right, white ,rgb(248, 237, 71) ,gold);
+        }
+        .sign{
+            text-align: center;
+            margin: auto;
+        }
+        .image{
+            width: 40px;
+            height: 40px;
+        }
+        .not{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .last{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .las{
+            font-size: 16px;
+            font-style: italic;
+        }
+        .box{
+            width: 85px;
+            height: 85px;
+            border-radius: 100%;
+            background-color: rgb(88, 246, 88);
+            position: absolute;
+            top: -35px;
+            right: -50px;
+        }
+        .box2{
+            width: 85px;
+            height: 85px;
+            border-radius: 100%;
+            background-color: rgb(88, 246, 88);
+            position: absolute;
+            bottom: -35px;
+            left: -50px;
+        }
+        .passuse{
+            margin-left: 55px;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="color">
+           <div class="log">
+            <div class="box"></div>
+            <div class="box2"></div>
+          <div>
+            <br><br>
+              <h2>LOGIN NOW</h2>
+              <br>
+            <p class="passuse">Username*</p>
+            <img src="person.svg" alt="" class="per">   
+            <input type="text"  placeholder="Enter your username" class="text" >
+            <br><br>
+            <p class="passuse">password*</p>
+            <img src="lock.svg" alt="" class="lock">
+            <input type="password" placeholder="Enter your password" class="password">
+            <br>
+            <div class="span"></div>
+            <br>
+            <p class="rem"> Remember me</p>
+            <br>
+            <button>LOGIN</button>
+            <br><br>
+            <p class="sign">or login with</p>
+           <div class="not">
+            <a href="https://www.google.com"><img src="google.png" alt="" class="image"></a>
+            <a href="https://www.twitter.com"><img src="facebook.png" alt="" class="image"></a>
+            <a href="https://www.facebook.com"><img src="twitter.png" alt="" class="image"></a>
+           </div>
+        </div>
+        <div class="last">
+            <p class="las">Don't have an accout? <a href="">sign up</a></p>
+           <a href=""> <p class="las">forgot password?</p></a>
+        </div>
+           </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+       }
+        .cat{
+            background-image: url("rm218batch5-katie-12.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: auto;
+            height: 615px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .dog{
+            width: 450px;
+            background-color: rgba(200, 200, 200, 0.805);
+            height: 550px;
+            margin: 0.5px;
+        }
+        .tech{
+            width: 430px;
+            height: 480px;
+            padding-top: 25px;
+            padding-left: 10px;
+        }
+        .lion{
+            width:450px;
+            height: 550px;
+            background-color: rgba(200, 200, 200, 0.805);
+            text-align: center;
+            position: relative;
+        }
+        .now{
+            font-size: x-large;
+            font-weight: bolder;
+        }
+        .email{
+            width: 230px;
+            height: 35px;
+            position: absolute;
+            left: 130px;
+            top: 117px;
+            border: 1px solid black;
+            border-radius: 2px;
+            padding-left: 10px;
+  
+            
+        }
+        .email:focus{
+            outline: none;
+        }
+        .div{
+            width: 50px;
+            height: 35px;
+            background-color: white;
+            margin-left: 90px;
+            border: 1px solid black;
+            border-radius: 2px;
+        }
+        .password{
+            width: 230px;
+            height: 35px;
+            position: absolute;
+            left: 130px;
+            top: 170px;
+            border: 1px solid black;
+            border-radius: 2px;
+            padding-left: 10px;
+        }
+        .password:focus{
+            outline: none;
+        }
+        .div2{
+            width: 50px;
+            height: 35px;
+            background-color: white;
+            margin-left: 90px;
+            border: 1px solid black;
+            border-radius: 2px;
+        }
+        .img{
+            padding-top: 5px;
+            padding-right: 7px;
+            width: 26px;
+        }
+        .img2{
+            padding-top: 5px;
+            padding-right: 7px;
+            width: 26px;
+        }
+        .rem{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .reg{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .in{
+            width: 60px;
+            height: 33px;
+            text-align: center;
+            border-radius: 2px;
+            border: 1px solid black;
+            margin-right: 30px;
+        }
+        .tick{
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border: 1px solid black;
+            left: 80px;
+        }
+        .me{
+            padding-left: 40px;
+        }
+        .you{
+            padding-left: 10px;
+        }
+        .hr{
+            width: 120px;
+            position: absolute;
+            height: 2px;
+            background-color: white;
+            border: none;
+        }
+        .hr1{
+            right: 90px;
+            top: 320px;
+        }
+        .hr2{
+            left: 90px;
+            top: 320px;
+        }
+        .btn{
+            width: 230px;
+            height: 35px;
+            border: none;
+            border-radius: 2px;
+            position: absolute;
+        }
+        .link{
+            text-decoration: none;
+            color: white;
+            font-weight: bolder;
+        }
+        .a{
+            background-color: rgb(46, 46, 161);
+            left: 130px;
+            top: 346px;
+        }
+        .b{
+            background-color: rgb(0, 242, 255);
+            left: 130px;
+            top: 417px;
+        }
+        .c{
+            background-color: rgb(240, 39, 39);
+            left: 130px;
+            top: 488px;
+        }
+        .d{
+            width: 50px;
+            height: 35px;
+            background-color: rgb(1, 11, 74);
+            margin-left: 90px;
+            border: none;
+            border-radius: 2px;
+        }
+        .e{
+            width: 50px;
+            height: 35px;
+            background-color: rgb(0, 115, 133);
+            margin-left: 90px;
+            border: none;
+            border-radius: 2px;
+        }
+        .f{
+            width: 50px;
+            height: 35px;
+            background-color: rgb(110, 0, 0);
+            margin-left: 90px;
+            border: none;
+            border-radius: 2px;
+        }
+        .pic{
+            width: 25px;
+            height: 25px;
+            padding-top: 5px;
+            padding-right: 5px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+       
+        @media screen and (max-width:600px) {
+            .dog{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cat">
+        <div class="dog">
+            <img src="people2.png" alt="" class="tech">
+        </div>
+        <div class="lion">
+            <br>
+            <p class="now">LOGIN NOW</p>
+            <br>
+            <p>welcome Back, Please login to <br> your account.</p>
+            <br>
+            <div class="div"> <img src="person.svg" alt="" class="img"></div>
+            <input type="text" placeholder="Username or email" class="email">
+            <br>
+            <div class="div2"> <img src="key.svg" alt="" class="img2"></div>
+            <input type="password" placeholder="Password" class="password">
+            <br>
+            <div class="rem">
+                <div class="tick"></div>
+                <p class="me">Remember me</p>
+                <button class="in">LOGIN</button>
+            </div>
+            <br>
+            <div class="reg">
+               <a href=""> <p class="you">Register now</p></a>
+                <a href=""><p>forgot password?</p></a>
+            </div>
+            <br>
+            <hr class="hr hr1"> or <hr class="hr hr2">
+            <br><br>
+            <div class="d"><img src="facebook.png" alt="" class="pic"></div>
+            <button class="btn a"><a href="https://www.facebook.com" class="link"> LOGIN WITH FACEBOOK</a></button>
+            <br><br>
+            <div class="e"> <img src="twitter.png" alt="" class="pic"></div>
+            <button class="btn b"><a href="https://www.twitter.com" class="link">LOGIN WITH TWITTER</a></button>
+            <br><br>
+            <div class="f"> <img src="google.png" alt="" class="pic"></div>
+            <button class="btn c"><a href="https://www.google.com" class="link">LOGIN WITH GOOGLE</a></button>
+        </div>
+    </div>
+</body>
+</html>
